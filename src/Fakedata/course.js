@@ -29,7 +29,7 @@ var courses = [
     },
     {
         "key" : 8, "name" : "Mastering Linux", "author" : "Rajesh Palit", price : 10.99, "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Scelerisque mauris pellentesque pulvinar pellentesque habitant. Sed augue lacus viverra vitae congue eu consequat ac felis. Erat nam at lectus urna duis convallis convallis tellus.",
-        "rating" : 4.5, "category" : "DevOps", "imgae" : "https://cdn.mos.cms.futurecdn.net/LJSA6h759BKJvuaBZyoUY-320-80.jpg"
+        "rating" : 4.5, "category" : "DevOps", "image" : "https://cdn.mos.cms.futurecdn.net/LJSA6h759BKJvuaBZyoUY-320-80.jpg"
     },
     {
         "key" : 9, "name" : "Ethereum / Blockchain Technology", "author" : "Bahalul Pallab", price : 25.99, "description" : "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Bibendum arcu vitae elementum curabitur vitae nunc sed. Faucibus vitae aliquet nec ullamcorper sit amet risus nullam. Elementum tempus egestas sed sed risus pretium quam vulputate dignissim. Nunc sed id semper risus in hendrerit gravida.",
