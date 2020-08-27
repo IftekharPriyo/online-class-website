@@ -1,12 +1,15 @@
 import React from 'react';
-import { Nav, Navbar, NavItem, NavDropdown, Form, FormControl, Button, Carousel } from "react-bootstrap"
+import { Nav, Navbar, NavDropdown, Form, FormControl, Button } from "react-bootstrap"
 
 const Header = () => {
+    const refreshPage = () => {
+        window.location.reload(false);
+    }
     return (
         <div>
             <div>
                 <Navbar className="navbar-dark bg-dark" fixed='top' expand="lg">
-                    <Navbar.Brand href="#home">XYZ-Online-Platform</Navbar.Brand>
+                    <Navbar.Brand href="#top-view" onClick={refreshPage}>XYZ-Online-Platform</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="mr-auto">
@@ -19,6 +22,7 @@ const Header = () => {
                                 <NavDropdown.Divider />
                                 <NavDropdown.Item href="#action/3.4">Others</NavDropdown.Item>
                             </NavDropdown>
+                            <Button variant="outline-primary" href="#top-view">Scroll to Cart</Button>
                         </Nav>
                         <Form inline>
                             <FormControl type="text" placeholder="Search" className="mr-sm-2" />

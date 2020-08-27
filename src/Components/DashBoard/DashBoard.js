@@ -22,7 +22,7 @@ const DashBoard = () => {
         <div id='top-view' className='dashboard-container'>
 
             <div className='courses-container'>
-                <h3 id='offer-text'>Course Offered</h3>
+                <h3 id='offer-text'>Courses Offered</h3>
                 <div>
                     {
                         courses.map(courses => <Courses course={courses} handleCourse={handleAddCourse}></Courses>)
