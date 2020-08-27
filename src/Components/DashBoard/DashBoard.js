@@ -6,9 +6,11 @@ import Cart from '../Cart/Cart';
 
 
 const DashBoard = () => {
+
     const hasToShow = fakeData.slice(0, 15);
     const [courses, setCourses] = useState(hasToShow);
     const [cart, setCart] = useState([]);
+
     const handleAddCourse = (course) => {
         const newCart = [...cart, course];
         setCart(newCart);
@@ -17,7 +19,7 @@ const DashBoard = () => {
 
     return (
 
-        <div className='dashboard-container'>
+        <div id='top-view' className='dashboard-container'>
 
             <div className='courses-container'>
                 <h3 id='offer-text'>Course Offered</h3>

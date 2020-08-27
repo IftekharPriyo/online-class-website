@@ -5,11 +5,11 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faShoppingCart } from '@fortawesome/free-solid-svg-icons'
 import './Courses.css'
 const Courses = (props) => {
-    const {name, author, description, price} = props.course
+    const {name, author, description, price, category} = props.course
     return (
         <div className='courses-card'>
             <Card>
-                <Card.Header as="h5">Featured</Card.Header>
+                <Card.Header as="h5">{category}</Card.Header>
                 <Card.Img className='img-card' variant="top" src="https://www.jenyalestina.com/blog/wp-content/uploads/2019/05/web-development.jpg" />
                 <Card.Body>
                     <Card.Title style={{fontSize:'40px'}}>{name}</Card.Title>
@@ -18,7 +18,7 @@ const Courses = (props) => {
                         <p style={{fontSize:'20px'}}>{description}</p>
                         <h4>Price : ${price}</h4>
                     </Card.Text>
-                    <Button onClick={()=>props.handleCourse(price)} variant="primary"> <FontAwesomeIcon icon={faShoppingCart}/> Purchase</Button>
+                    <Button onClick={()=>props.handleCourse(price)} variant="primary"> <FontAwesomeIcon icon={faShoppingCart}/> Enroll Now</Button>
                 </Card.Body>
             </Card>
         </div>

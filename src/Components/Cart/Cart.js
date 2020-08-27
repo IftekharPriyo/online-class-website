@@ -3,7 +3,7 @@ import React from 'react';
 
 const Cart = (props) => {
     const cart = props.cart;
-    const total = cart.reduce((total,pd)=>total+pd,0);
+    const total = cart.reduce((total,price)=>total+price,0);
     let VAT =0;
     if(total>30){
         VAT = 0;

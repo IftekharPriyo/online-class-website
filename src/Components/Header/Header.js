@@ -5,13 +5,13 @@ const Header = () => {
     return (
         <div>
             <div>
-                <Navbar className="navbar-dark bg-dark" expand="lg">
+                <Navbar className="navbar-dark bg-dark" fixed='top' expand="lg">
                     <Navbar.Brand href="#home">XYZ-Online-Platform</Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="mr-auto">
-                            <Nav.Link href="#home">Home</Nav.Link>
-                            <Nav.Link href="#link">Courses</Nav.Link>
+                            <Nav.Link href="#top-view">Home</Nav.Link>
+                            <Nav.Link href="#top-view">Courses</Nav.Link>
                             <NavDropdown title="Faculties" id="basic-nav-dropdown">
                                 <NavDropdown.Item href="#action/3.1">Science</NavDropdown.Item>
                                 <NavDropdown.Item href="#action/3.2">Commerce</NavDropdown.Item>

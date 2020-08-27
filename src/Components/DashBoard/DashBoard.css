@@ -1,6 +1,7 @@
 
 .dashboard-container{
     display: flex;
+    margin-top: 30px;
 }
 
 .courses-container{
@@ -11,9 +12,13 @@
     padding-right: 20px;
 }
 
+.cart-container{
+    margin-top: 30px;
+}
+
 #offer-text{
     text-align: center;
-    margin: 30px;
+    margin: 60px;
 }
 
 #order-text{
@@ -21,3 +26,6 @@
     margin: 30px;
 }
 
+html {
+    scroll-behavior: smooth;
+}
